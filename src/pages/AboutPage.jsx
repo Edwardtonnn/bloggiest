@@ -1,9 +1,18 @@
 import React from 'react'
+import NavigationalBar from '../NavigationalBar'
 
 function AboutPage() {
   return (
     <>
-    <h2>About Page</h2>
+    <NavigationalBar/>
+    <div className="container">
+        <div className="row">
+            <div className="col">
+                 <h2>About Page</h2>
+
+            </div>
+        </div>
+    </div>
     </>
   )
 }

@@ -1,10 +1,10 @@
 import { react } from 'react'
-import './style.scss'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap';
 import Homepage from './pages/Homepage';
 
 import NavigationalBar from './NavigationalBar';
+import './style.scss'
 
 
 function App() { 
